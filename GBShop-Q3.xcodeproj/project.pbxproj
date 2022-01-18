@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993B1CEEF5B491E026B9F668 /* Pods_GBShop_Q3_GBShop_Q3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDDA4DF99099AA897FE92B6 /* Pods_GBShop_Q3_GBShop_Q3UITests.framework */; };
+		B4B9AA0566D803C964D72539 /* Pods_GBShop_Q3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678076E2CB923A2FCA5D30D1 /* Pods_GBShop_Q3.framework */; };
+		E4EE70602797035B00F6AF0B /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE705F2797035B00F6AF0B /* AbstractErrorParser.swift */; };
+		E4EE7062279703A300F6AF0B /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7061279703A300F6AF0B /* ErrorParser.swift */; };
+		E4EE7064279703D300F6AF0B /* CustomDecodableSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7063279703D300F6AF0B /* CustomDecodableSerializer.swift */; };
+		E4EE70662797043B00F6AF0B /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE70652797043B00F6AF0B /* DataRequest.swift */; };
+		E4EE70682797046D00F6AF0B /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE70672797046D00F6AF0B /* RequestRouter.swift */; };
+		E4EE706E2797051500F6AF0B /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE706D2797051500F6AF0B /* LoginResult.swift */; };
+		E4EE70702797051F00F6AF0B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE706F2797051F00F6AF0B /* User.swift */; };
+		E4EE70732797057700F6AF0B /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE70722797057700F6AF0B /* AuthRequestFactory.swift */; };
+		E4EE70752797059200F6AF0B /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE70742797059200F6AF0B /* Auth.swift */; };
+		E4EE7077279705C900F6AF0B /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7076279705C900F6AF0B /* RequestFactory.swift */; };
 		E4F607B12783430500E391A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F607B02783430500E391A2 /* AppDelegate.swift */; };
 		E4F607B32783430500E391A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F607B22783430500E391A2 /* SceneDelegate.swift */; };
 		E4F607B52783430500E391A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F607B42783430500E391A2 /* ViewController.swift */; };
@@ -16,6 +28,7 @@
 		E4F607C82783430900E391A2 /* GBShop_Q3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F607C72783430900E391A2 /* GBShop_Q3Tests.swift */; };
 		E4F607D22783430900E391A2 /* GBShop_Q3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F607D12783430900E391A2 /* GBShop_Q3UITests.swift */; };
 		E4F607D42783430900E391A2 /* GBShop_Q3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F607D32783430900E391A2 /* GBShop_Q3UITestsLaunchTests.swift */; };
+		E8D0DF2DC64BF69608616334 /* Pods_GBShop_Q3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A679A7F4DB8BAB03CDDD362 /* Pods_GBShop_Q3Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16093BA354E4D74A096596F8 /* Pods-GBShop-Q3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-Q3Tests.debug.xcconfig"; path = "Target Support Files/Pods-GBShop-Q3Tests/Pods-GBShop-Q3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FBF125A6FADAEED04A4E8D4 /* Pods-GBShop-Q3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-Q3.debug.xcconfig"; path = "Target Support Files/Pods-GBShop-Q3/Pods-GBShop-Q3.debug.xcconfig"; sourceTree = "<group>"; };
+		678076E2CB923A2FCA5D30D1 /* Pods_GBShop_Q3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop_Q3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDDA4DF99099AA897FE92B6 /* Pods_GBShop_Q3_GBShop_Q3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop_Q3_GBShop_Q3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A679A7F4DB8BAB03CDDD362 /* Pods_GBShop_Q3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop_Q3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F76C52D3A41DE5A195588B3 /* Pods-GBShop-Q3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-Q3Tests.release.xcconfig"; path = "Target Support Files/Pods-GBShop-Q3Tests/Pods-GBShop-Q3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B75C5D31A98A303E79A9E052 /* Pods-GBShop-Q3-GBShop-Q3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-Q3-GBShop-Q3UITests.release.xcconfig"; path = "Target Support Files/Pods-GBShop-Q3-GBShop-Q3UITests/Pods-GBShop-Q3-GBShop-Q3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4EE705F2797035B00F6AF0B /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
+		E4EE7061279703A300F6AF0B /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		E4EE7063279703D300F6AF0B /* CustomDecodableSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodableSerializer.swift; sourceTree = "<group>"; };
+		E4EE70652797043B00F6AF0B /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		E4EE70672797046D00F6AF0B /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		E4EE706D2797051500F6AF0B /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		E4EE706F2797051F00F6AF0B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E4EE70722797057700F6AF0B /* AuthRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestFactory.swift; sourceTree = "<group>"; };
+		E4EE70742797059200F6AF0B /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		E4EE7076279705C900F6AF0B /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
 		E4F607AD2783430500E391A2 /* GBShop-Q3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GBShop-Q3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F607B02783430500E391A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4F607B22783430500E391A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,8 @@
 		E4F607CD2783430900E391A2 /* GBShop-Q3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GBShop-Q3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F607D12783430900E391A2 /* GBShop_Q3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShop_Q3UITests.swift; sourceTree = "<group>"; };
 		E4F607D32783430900E391A2 /* GBShop_Q3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShop_Q3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1479FD03E702D7BE85BE6A2 /* Pods-GBShop-Q3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-Q3.release.xcconfig"; path = "Target Support Files/Pods-GBShop-Q3/Pods-GBShop-Q3.release.xcconfig"; sourceTree = "<group>"; };
+		F4AA0D31D6DAB6307F28E3A4 /* Pods-GBShop-Q3-GBShop-Q3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-Q3-GBShop-Q3UITests.debug.xcconfig"; path = "Target Support Files/Pods-GBShop-Q3-GBShop-Q3UITests/Pods-GBShop-Q3-GBShop-Q3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B9AA0566D803C964D72539 /* Pods_GBShop_Q3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D0DF2DC64BF69608616334 /* Pods_GBShop_Q3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993B1CEEF5B491E026B9F668 /* Pods_GBShop_Q3_GBShop_Q3UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4EE705A2797027A00F6AF0B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E4F607B02783430500E391A2 /* AppDelegate.swift */,
+				E4EE706C279704EC00F6AF0B /* Flows */,
+				E4EE706B279704E300F6AF0B /* Entity */,
+				E4EE706A279704D700F6AF0B /* BuisnessLogic */,
+				E4EE7069279704BE00F6AF0B /* Assembly */,
+				E4F607B22783430500E391A2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E4EE705B2797028200F6AF0B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE705E2797031300F6AF0B /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E4EE705C2797028F00F6AF0B /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				E4F607BE2783430800E391A2 /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		E4EE705D2797029D00F6AF0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4F607B92783430800E391A2 /* Assets.xcassets */,
+				E4F607BB2783430800E391A2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4EE705E2797031300F6AF0B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE705F2797035B00F6AF0B /* AbstractErrorParser.swift */,
+				E4EE7061279703A300F6AF0B /* ErrorParser.swift */,
+				E4EE7063279703D300F6AF0B /* CustomDecodableSerializer.swift */,
+				E4EE70652797043B00F6AF0B /* DataRequest.swift */,
+				E4EE70672797046D00F6AF0B /* RequestRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E4EE7069279704BE00F6AF0B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		E4EE706A279704D700F6AF0B /* BuisnessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE70712797055A00F6AF0B /* Network */,
+			);
+			path = BuisnessLogic;
+			sourceTree = "<group>";
+		};
+		E4EE706B279704E300F6AF0B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE706D2797051500F6AF0B /* LoginResult.swift */,
+				E4EE706F2797051F00F6AF0B /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E4EE706C279704EC00F6AF0B /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		E4EE70712797055A00F6AF0B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE70722797057700F6AF0B /* AuthRequestFactory.swift */,
+				E4EE70742797059200F6AF0B /* Auth.swift */,
+				E4EE7076279705C900F6AF0B /* RequestFactory.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		E4F607A42783430400E391A2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +209,8 @@
 				E4F607C62783430900E391A2 /* GBShop-Q3Tests */,
 				E4F607D02783430900E391A2 /* GBShop-Q3UITests */,
 				E4F607AE2783430500E391A2 /* Products */,
+				F2F53D17809DE249550624F4 /* Pods */,
+				FD36625B55B16A5D1EDFF3F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +227,12 @@
 		E4F607AF2783430500E391A2 /* GBShop-Q3 */ = {
 			isa = PBXGroup;
 			children = (
-				E4F607B02783430500E391A2 /* AppDelegate.swift */,
-				E4F607B22783430500E391A2 /* SceneDelegate.swift */,
+				E4EE705D2797029D00F6AF0B /* Resources */,
+				E4EE705C2797028F00F6AF0B /* Environments */,
+				E4EE705B2797028200F6AF0B /* Core */,
+				E4EE705A2797027A00F6AF0B /* App */,
 				E4F607B42783430500E391A2 /* ViewController.swift */,
 				E4F607B62783430500E391A2 /* Main.storyboard */,
-				E4F607B92783430800E391A2 /* Assets.xcassets */,
-				E4F607BB2783430800E391A2 /* LaunchScreen.storyboard */,
-				E4F607BE2783430800E391A2 /* Info.plist */,
 			);
 			path = "GBShop-Q3";
 			sourceTree = "<group>";
@@ -127,6 +254,29 @@
 			path = "GBShop-Q3UITests";
 			sourceTree = "<group>";
 		};
+		F2F53D17809DE249550624F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FBF125A6FADAEED04A4E8D4 /* Pods-GBShop-Q3.debug.xcconfig */,
+				F1479FD03E702D7BE85BE6A2 /* Pods-GBShop-Q3.release.xcconfig */,
+				F4AA0D31D6DAB6307F28E3A4 /* Pods-GBShop-Q3-GBShop-Q3UITests.debug.xcconfig */,
+				B75C5D31A98A303E79A9E052 /* Pods-GBShop-Q3-GBShop-Q3UITests.release.xcconfig */,
+				16093BA354E4D74A096596F8 /* Pods-GBShop-Q3Tests.debug.xcconfig */,
+				9F76C52D3A41DE5A195588B3 /* Pods-GBShop-Q3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD36625B55B16A5D1EDFF3F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				678076E2CB923A2FCA5D30D1 /* Pods_GBShop_Q3.framework */,
+				6DDDA4DF99099AA897FE92B6 /* Pods_GBShop_Q3_GBShop_Q3UITests.framework */,
+				7A679A7F4DB8BAB03CDDD362 /* Pods_GBShop_Q3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F607D72783430900E391A2 /* Build configuration list for PBXNativeTarget "GBShop-Q3" */;
 			buildPhases = (
+				C14ECF1A2F99DB3D1B33ED3B /* [CP] Check Pods Manifest.lock */,
 				E4F607A92783430500E391A2 /* Sources */,
 				E4F607AA2783430500E391A2 /* Frameworks */,
 				E4F607AB2783430500E391A2 /* Resources */,
+				05089B0069F2C7F44DF9A2F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F607DA2783430900E391A2 /* Build configuration list for PBXNativeTarget "GBShop-Q3Tests" */;
 			buildPhases = (
+				866D47FE6A94C6EE72560054 /* [CP] Check Pods Manifest.lock */,
 				E4F607BF2783430900E391A2 /* Sources */,
 				E4F607C02783430900E391A2 /* Frameworks */,
 				E4F607C12783430900E391A2 /* Resources */,
@@ -169,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F607DD2783430900E391A2 /* Build configuration list for PBXNativeTarget "GBShop-Q3UITests" */;
 			buildPhases = (
+				405FF63DDB3867B0F156AB2C /* [CP] Check Pods Manifest.lock */,
 				E4F607C92783430900E391A2 /* Sources */,
 				E4F607CA2783430900E391A2 /* Frameworks */,
 				E4F607CB2783430900E391A2 /* Resources */,
+				C1F9272AEA22987C9FE5E748 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +408,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05089B0069F2C7F44DF9A2F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GBShop-Q3/Pods-GBShop-Q3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GBShop-Q3/Pods-GBShop-Q3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GBShop-Q3/Pods-GBShop-Q3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405FF63DDB3867B0F156AB2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBShop-Q3-GBShop-Q3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866D47FE6A94C6EE72560054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBShop-Q3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14ECF1A2F99DB3D1B33ED3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBShop-Q3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F9272AEA22987C9FE5E748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GBShop-Q3-GBShop-Q3UITests/Pods-GBShop-Q3-GBShop-Q3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GBShop-Q3-GBShop-Q3UITests/Pods-GBShop-Q3-GBShop-Q3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GBShop-Q3-GBShop-Q3UITests/Pods-GBShop-Q3-GBShop-Q3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4F607A92783430500E391A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EE70732797057700F6AF0B /* AuthRequestFactory.swift in Sources */,
+				E4EE70682797046D00F6AF0B /* RequestRouter.swift in Sources */,
+				E4EE70662797043B00F6AF0B /* DataRequest.swift in Sources */,
+				E4EE7077279705C900F6AF0B /* RequestFactory.swift in Sources */,
+				E4EE7062279703A300F6AF0B /* ErrorParser.swift in Sources */,
 				E4F607B52783430500E391A2 /* ViewController.swift in Sources */,
 				E4F607B12783430500E391A2 /* AppDelegate.swift in Sources */,
+				E4EE7064279703D300F6AF0B /* CustomDecodableSerializer.swift in Sources */,
+				E4EE706E2797051500F6AF0B /* LoginResult.swift in Sources */,
 				E4F607B32783430500E391A2 /* SceneDelegate.swift in Sources */,
+				E4EE70702797051F00F6AF0B /* User.swift in Sources */,
+				E4EE70602797035B00F6AF0B /* AbstractErrorParser.swift in Sources */,
+				E4EE70752797059200F6AF0B /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +702,7 @@
 		};
 		E4F607D82783430900E391A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBF125A6FADAEED04A4E8D4 /* Pods-GBShop-Q3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +731,7 @@
 		};
 		E4F607D92783430900E391A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1479FD03E702D7BE85BE6A2 /* Pods-GBShop-Q3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +760,7 @@
 		};
 		E4F607DB2783430900E391A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16093BA354E4D74A096596F8 /* Pods-GBShop-Q3Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +781,7 @@
 		};
 		E4F607DC2783430900E391A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F76C52D3A41DE5A195588B3 /* Pods-GBShop-Q3Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +802,7 @@
 		};
 		E4F607DE2783430900E391A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AA0D31D6DAB6307F28E3A4 /* Pods-GBShop-Q3-GBShop-Q3UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +821,7 @@
 		};
 		E4F607DF2783430900E391A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75C5D31A98A303E79A9E052 /* Pods-GBShop-Q3-GBShop-Q3UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
